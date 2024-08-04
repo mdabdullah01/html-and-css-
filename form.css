@@ -1,0 +1,50 @@
+body{
+    font-weight: bold;
+}
+.contact{
+    width: 80%;
+    border: 2px solid #f71313;
+    margin: 20px auto;
+    padding: 5%;
+    text-align: center;
+}
+.contact h2{
+    font-weight:bold ;
+    font-size: 35px;
+    margin-bottom: 0;
+}
+.contact p{
+    color: rgb(93, 100, 92);
+}
+.contact form{
+    margin-top: 20px;
+}
+.child_form{
+    width: 100%;
+    margin-bottom: 10px;
+    text-align: left;
+}
+.child_form label{
+    display: block;
+    margin-bottom: 5px;
+}
+.child_form input{
+    border: 1px solid #f71313;
+    border-radius: 5px;
+    padding: 10px 3%;
+    width: 100%;
+}
+.child_form:last-child{
+    margin-bottom: 0;
+}
+.child_form input[type="button"]{
+    width: 200px;
+    background-color: blueviolet;
+    font-weight: bold;
+    cursor: pointer;
+}
+.child_form input[type="button"]:hover{
+    color: white;
+    background-color: rgb(255, 0, 0);
+}
+
